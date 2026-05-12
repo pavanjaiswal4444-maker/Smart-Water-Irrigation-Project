@@ -1,0 +1,39 @@
+# ── Arduino Build Artifacts ──────────────────────────────────
+build/
+*.elf
+*.hex
+*.bin
+*.map
+*.eep
+
+# ── Arduino IDE temp files ────────────────────────────────────
+*.bak
+*.orig
+
+# ── PlatformIO ────────────────────────────────────────────────
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# ── VS Code ───────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── macOS ─────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+
+# ── Windows ───────────────────────────────────────────────────
+Thumbs.db
+desktop.ini
+
+# ── Linux ────────────────────────────────────────────────────
+*~
+
+# ── CREDENTIALS — NEVER COMMIT THESE ─────────────────────────
+secrets.h
+credentials.h
+wifi_config.h
+*password*
+*secret*
+.env
